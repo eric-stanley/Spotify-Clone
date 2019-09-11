@@ -1,0 +1,146 @@
+html, body {
+	padding: 0;
+	margin: 0;
+	height: 100%;
+}
+
+* {
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	color: #fff;
+}
+
+#nowPlayingBarContainer {
+	background-color: #282828;
+	width: 100%;
+	height: 100px;
+	bottom: 0;
+	position: fixed;
+}
+
+#nowPlayingBar {
+	display: flex;
+    height: 90px;
+    padding: 16px;
+    box-sizing: border-box;
+}
+
+#nowPlayingLeft,
+#nowPlayingRight {
+	width: 30%;
+    min-width: 180px;
+}
+
+#nowPlayingRight {
+	position: relative;
+	margin-top: 16px;
+}
+
+#nowPlayingCenter {
+	width: 40%;
+    max-width: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#nowPlayingBar .content {
+	width: 100%;
+	height: 57px;
+}
+
+.playerControls .buttons {
+	margin: 0 auto;
+    display: table;
+}
+
+.controlButton {
+	background-color: transparent;
+    border: none;
+    vertical-align: middle;
+}
+
+.controlButton img {
+	width: 20px;
+    height: 20px;
+}
+
+.controlButton.play img, 
+.controlButton.pause img {
+	width: 32px;
+    height: 32px;
+}
+
+.controlButton:hover {
+	cursor: pointer;
+}
+
+.playbackBar {
+	display: flex;
+}
+
+.progressTime {
+	text-align: center;
+    min-width: 40px;
+    color: #a0a0a0;
+    font-size: 11px;
+}
+
+.progressBar {
+	width: 100%;
+    height: 12px;
+    display: inline-flex;
+    cursor: pointer;
+}
+
+.progressBarBg {
+	height: 4px;
+    background-color: #404040;
+    width: 100%;
+    border-radius: 2px;
+}
+
+.progress {
+	background-color: #a0a0a0;
+    height: 4px;
+    width: 0;
+    border-radius: 2px;
+}
+
+.playbackBar .progressBar {
+	margin-top: 3px;
+}
+
+#nowPlayingLeft .albumArtwork {
+	height: 100%;
+    max-width: 57px;
+    margin-right: 15px;
+    float: left;
+    background-size: cover;
+}
+
+#nowPlayingLeft .trackInfo {
+	display: table;
+}
+
+#nowPlayingLeft .trackInfo .trackName {
+	margin: 6px 0;
+    display: inline-block;
+    width: 100%;
+}
+
+#nowPlayingLeft .trackInfo .artistName span {
+	color: #a0a0a0;
+    font-size: 12px;
+}
+
+.volumeBar {
+	width: 180px;
+    position: absolute;
+    right: 0;
+}
+
+.volumeBar .progressBar {
+	width: 125px;
+}
+
+
