@@ -351,6 +351,10 @@ body {
     visibility: visible;
 }
 
+.trackListRow .trackOptions:hover img {
+    cursor: pointer;
+}
+
 .trackListRow .trackDuration {
     width: 12%;
     float: left;

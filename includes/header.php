@@ -20,6 +20,9 @@ if (isset($_SESSION['userLoggedIn'])) {
 <head>
 	<title>Welcome to Spotify</title>
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="assets/js/script.js"></script>
 </head>
 <body>
 
