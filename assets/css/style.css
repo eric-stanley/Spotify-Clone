@@ -366,6 +366,39 @@ body {
     margin-bottom: 7px;
 }
 
+.artistInfo {
+    text-align: center;
+}
 
+.button {
+    background-color: transparent;
+    color: #fff;
+    cursor: pointer;
+    margin-bottom: 10px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    border: 2px solid #fff;
+    border-radius: 500px;
+    padding: 15px;
+    min-width: 130px;
+}
 
+.button.green {
+    background-color: #2ebd59;
+    border-color: #2ebd59;
+}
+
+.borderBottom {
+    border-bottom: 1px solid #939393;
+    margin-bottom: 20px;
+}
+
+.trackListContainer h2,
+.gridViewContainer h2 {
+    text-align: center;
+}
+
+[role="link"] {
+    cursor: pointer;
+}
 
