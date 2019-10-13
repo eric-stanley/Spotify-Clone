@@ -171,13 +171,11 @@ function setTrack(trackId, newPlaylist, play) {
 		});
 
 		audioElement.setTrack(track);
-		playSong();
-	});
 
-	if (play) {
-		playSong();
-	}
-	
+		if (play) {
+			playSong();
+		}
+	});	
 }
 
 function playSong() {
@@ -185,7 +183,6 @@ function playSong() {
 	if (audioElement.audio.currentTime == 0) {
 		$.post("includes/handlers/ajax/updatePlays.php", { songId: audioElement.currentlyPlaying.id });
 	}
-
 	$(".controlButton.play").hide();
 	$(".controlButton.pause").show();
 	audioElement.play();
