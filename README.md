@@ -8,3 +8,6 @@ A Text Editor (Sublime Text, Notepad++, etc)
 
 Localhost (XAMPP, WAMPP, etc)
 
+## Demo aplication
+
+http://spotify.stanleyeric.com
