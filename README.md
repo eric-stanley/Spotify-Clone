@@ -10,4 +10,4 @@ Localhost (XAMPP, WAMPP, etc)
 
 ## Demo
 
-http://spotify.stanleyeric.com
+https://php-spotify-clone.herokuapp.com/
