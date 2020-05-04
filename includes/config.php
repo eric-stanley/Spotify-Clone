@@ -12,7 +12,7 @@
 	$password = $url["pass"];
 	$db = substr($url["path"], 1);
 
-	$con = new mysqli_connect($server, $username, $password, $db);
+	$con = new mysqli($server, $username, $password, $db);
 	// $con = mysqli_connect("localhost", "root", "", "spotify");
 
 	if (mysqli_connect_errno()) {
