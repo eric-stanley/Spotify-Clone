@@ -1,5 +1,6 @@
 {
   "require": {
+    "composer/composer": "^2.4.0-RC1",
     "symfony/flex": "^2.2.2",
     "monolog/monolog": "^1.22",
     "twig/twig": "^3.4.1",
