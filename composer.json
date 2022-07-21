@@ -1,13 +1,17 @@
 {
   "require": {
-    "composer/composer": "^2.4.0-RC1",
     "symfony/flex": "^2.2.2",
-    "monolog/monolog": "^1.22",
+    "monolog/monolog": "^3.1.0",
     "twig/twig": "^3.4.1",
-    "symfony/twig-bridge": "^3",
+    "symfony/twig-bridge": "^6.1.2",
     "ext-mysqli": "*"
   },
   "require-dev": {
     "heroku/heroku-buildpack-php": "*"
+  },
+  "config": {
+    "allow-plugins": {
+      "symfony/flex": true
+    }
   }
 }
