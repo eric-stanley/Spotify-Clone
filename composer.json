@@ -4,7 +4,8 @@
     "monolog/monolog": "^3.1.0",
     "twig/twig": "^3.4.1",
     "symfony/twig-bridge": "^6.1.2",
-    "ext-mysqli": "*"
+    "ext-mysqli": "*",
+    "vlucas/phpdotenv": "^5.5"
   },
   "require-dev": {
     "heroku/heroku-buildpack-php": "*"

@@ -1,19 +1,21 @@
 <?php
 
+	require_once realpath(__DIR__ . '/../vendor/autoload.php');
+	$dotenv = Dotenv\Dotenv::createUnsafeImmutable(__DIR__, '/../.env');
+	$dotenv->load();
+
 	ob_start();
 	session_start();
 
 	$timezone = date_default_timezone_set("Europe/London");
 
-	$url = parse_url(getenv("CLEARDB_DATABASE_URL"));
+	$server = getenv('MYSQL_DB_HOST');
+	$username = getenv('MYSQL_DB_USERNAME');
+	$password = getenv('MYSQL_DB_PASSWORD');
+	$db = getenv('MYSQL_DB_NAME');
+	$port = getenv('MYSQL_DB_PORT');
 
-	$server = $url["host"];
-	$username = $url["user"];
-	$password = $url["pass"];
-	$db = substr($url["path"], 1);
-
-	$con = new mysqli($server, $username, $password, $db);
-	// $con = mysqli_connect("localhost", "root", "", "spotify");
+	$con = new mysqli($server, $username, $password, $db, $port);
 
 	if (mysqli_connect_errno()) {
 		echo "Failed to connect: " . mysqli_connect_errno();
