@@ -1,8 +1,8 @@
 {
   "functions": {
-    "index.php": {
+    "api/index.php": {
       "runtime": "vercel-php@0.5.2"
     }
   },
-  "rewrites": [{ "source": "/(.*)", "destination": "/index.php" }]
+  "rewrites": [{ "source": "/(.*)", "destination": "/api/index.php" }]
 }

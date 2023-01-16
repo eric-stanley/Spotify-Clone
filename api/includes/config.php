@@ -1,7 +1,7 @@
 <?php
 
 	require_once realpath(__DIR__ . '/../vendor/autoload.php');
-	$dotenv = Dotenv\Dotenv::createUnsafeImmutable(__DIR__, '/../.env');
+	$dotenv = Dotenv\Dotenv::createUnsafeImmutable(__DIR__, '/../../.env');
 	$dotenv->load();
 
 	ob_start();

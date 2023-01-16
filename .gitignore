@@ -1,3 +1,3 @@
-/vendor
+/api/vendor
 .env
 .vercel
