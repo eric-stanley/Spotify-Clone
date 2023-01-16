@@ -9,5 +9,3 @@ A Text Editor (Sublime Text, Notepad++, etc)
 Localhost (XAMPP, WAMPP, etc)
 
 ## Demo
-
-https://php-spotify-clone.herokuapp.com/
