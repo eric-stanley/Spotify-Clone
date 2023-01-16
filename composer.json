@@ -7,8 +7,7 @@
     "ext-mysqli": "*",
     "vlucas/phpdotenv": "^5.5",
     "php": "^8.1.14",
-    "tracy/tracy": "^2.9.5",
-    "vercel-php": "^0.5.2"
+    "tracy/tracy": "^2.9.5"
   },
   "require-dev": {
     "heroku/heroku-buildpack-php": "*"
