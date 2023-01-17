@@ -8,6 +8,7 @@ A Text Editor (Sublime Text, Notepad++, etc)
 
 Localhost (XAMPP, WAMPP, etc)
 
-## Demo
+## Demos
 
 https://spotify.up.railway.app/
+https://spotify.stanleyeric.com/
