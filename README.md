@@ -16,7 +16,11 @@ https://spotify.stanleyeric.com/
 Create .env file in the root folder with the below variables
 
 `MYSQL_DB_HOST=<hosting_server>
+
 MYSQL_DB_PORT=<db_port>
+
 MYSQL_DB_NAME=<db_namme>
+
 MYSQL_DB_USERNAME=<db_username>
+
 MYSQL_DB_PASSWORD=<db_password>`
